@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+     
+    <head>
+	     <meta charset="UTF-8">
+	     <title>castom card</title>
+	     <link rel="stylesheet" href="style.css">
+    </head>
+	
+    <body>
+       <div class="hero">
+		   <h1>Customer Review</h1>
+		   <div class="review-box">
+			   <div id="slide">
+				   <div class="card">
+					   <div class="profile">
+						    <img src="img/img1.jpg">
+							<div>
+								<h3>Riley Olie</h3>
+						         <p>Web Designer</p>
+							</div>
+					   </div>
+					   <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.
+						   Furthermore, there is a solid beleif that if one person succeeds, another must fail. Many people feel
+						   that there is a limited amount of abundance
+					   </p> 
+				   </div>
+				   <div class="card">
+					   <div class="profile">
+						    <img src="img/img2.jpg">
+							<div>
+								<h3>Steve McCurry</h3>
+						         <p>Web Designer</p>
+							</div>
+					   </div>
+					   <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.
+						   Furthermore, there is a solid beleif that if one person succeeds, another must fail. Many people feel
+						   that there is a limited amount of abundance
+					   </p> 
+				   </div>
+				   <div class="card">
+					   <div class="profile">
+						    <img src="img/img3.jpg">
+							<div>
+								<h3>Maryea Curry</h3>
+						         <p>Web Designer</p>
+							</div>
+					   </div>
+					   <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.
+						   Furthermore, there is a solid beleif that if one person succeeds, another must fail. Many people feel
+						   that there is a limited amount of abundance
+					   </p> 
+				   </div>
+				   <div class="card">
+					   <div class="profile">
+						    <img src="img/img4.jpg">
+							<div>
+								<h3>Rovert Max</h3>
+						         <p>Web Designer</p>
+							</div>
+					   </div>
+					   <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.
+						   Furthermore, there is a solid beleif that if one person succeeds, another must fail. Many people feel
+						   that there is a limited amount of abundance
+					   </p> 
+				   </div>
+				   <div class="card">
+					   <div class="profile">
+						    <img src="img/img5.jpg">
+							<div>
+								<h3>Asli Hanam</h3>
+						         <p>Web Designer</p>
+							</div>
+					   </div>
+					   <p>Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.
+						   Furthermore, there is a solid beleif that if one person succeeds, another must fail. Many people feel
+						   that there is a limited amount of abundance
+					   </p> 
+				   </div>
+			   </div>
+			   <div class="sidebar">
+                      <img src="img/top.png" id="top">
+                      <img src="img/bottom.png" id="buttom">
+			   </div>
+		   </div>
+	   </div>
+	
+ 	 <script>
+        var slide=document.getElementById("slide");
+        var up=document.getElementById("top");
+        var down=document.getElementById("buttom");
+
+		let x=0;
+		up.onclick=function(){
+			if(x <0){
+				x =x+300;
+				slide.style.top=x+"px";
+			}
+		}
+		down.onclick=function(){
+			if(x > "-1200"){
+				x =x-300;
+				slide.style.top=x+"px";
+			}
+		}
+	  </script>
+    </body>
+	
+</html>
